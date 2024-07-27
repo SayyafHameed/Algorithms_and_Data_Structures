@@ -14,47 +14,82 @@ using Algorithms;
 //Console.Write("Solution Fibonacci with cache => Recursive Way : ");
 //Console.WriteLine(RecursionProblems.Fibonacci(10));
 
+
+//Console.WriteLine();
+//Console.WriteLine("Solution Bubble Sort Algorithms : ");
+//int[] array = [5, 4, 2, 8, 9, 7, 1, 3, 6];
+//foreach (var item in array)
+//{
+//    Console.Write(item + " ");
+//}
+//var newarray = BubbleSort.BubbleSorts(array);
+
+//Console.WriteLine();
+//foreach (var item in newarray)
+//{
+//    Console.Write(item + " ");
+//}
+
+
+//Console.WriteLine();
+//Console.WriteLine("Solution Selection Sort Algorithms : ");
+//int[] selectSort = {5, 4, 2, 8, 9, 7, 1, 3, 6, 11, 15, 12, 13};
+//foreach (var item in selectSort)
+//{
+//    Console.Write(item + " ");
+//}
+//var newSelectSort = SelectionSorts.SelectionSort(selectSort);
+
+//Console.WriteLine();
+//foreach (var item in newSelectSort)
+//{
+//    Console.Write(item + " ");
+//}
+
+
+//Console.WriteLine();
+//Console.WriteLine("Solution Insertion Sort Algorithms : ");
+//int[] insertSort = { 8, 5, 2, 9, 5, 6, 3 };
+//foreach (var item in insertSort)
+//{
+//    Console.Write(item + " ");
+//}
+//var newInsertSort = InsertionSort.InsertionSorts(insertSort);
+
+//Console.WriteLine();
+//foreach (var item in newInsertSort)
+//{
+//    Console.Write(item + " ");
+//}
+
+
 Console.WriteLine();
-Console.WriteLine("Solution Bubble Sort Algorithms : ");
-int[] array = [5, 4, 2, 8, 9, 7, 1, 3, 6];
-foreach (var item in array)
+Console.WriteLine("Solution Merge Sort Algorithms => Divide and Conquer : ");
+int[] mergeSort = { 8, 5, 2, 7, 9, 5, 6, 4, 3 };
+foreach (var item in mergeSort)
 {
     Console.Write(item + " ");
 }
-var newarray = BubbleSort.BubbleSorts(array);
+var newMergeSort = MergeSorting.MergeSort(mergeSort);
 
 Console.WriteLine();
-foreach (var item in newarray)
+foreach (var item in newMergeSort)
 {
     Console.Write(item + " ");
 }
 
+
 Console.WriteLine();
-Console.WriteLine("Solution Selection Sort Algorithms : ");
-int[] selectSort = {5, 4, 2, 8, 9, 7, 1, 3, 6, 11, 15, 12, 13};
-foreach (var item in selectSort)
+Console.WriteLine("Solution Quick Sort Algorithms => Divide and Conquer : ");
+int[] quickSort = { 8, 5, 2, 9, 5, 6, 3 };
+foreach (var item in quickSort)
 {
     Console.Write(item + " ");
 }
-var newSelectSort = SelectionSorts.SelectionSort(selectSort);
+var newQuickSort = QuickSorting.QuickSort(quickSort);
 
 Console.WriteLine();
-foreach (var item in newSelectSort)
-{
-    Console.Write(item + " ");
-}
-
-Console.WriteLine();
-Console.WriteLine("Solution Insertion Sort Algorithms : ");
-int[] insertSort = { 8, 5, 2, 9, 5, 6, 3 };
-foreach (var item in insertSort)
-{
-    Console.Write(item + " ");
-}
-var newInsertSort = InsertionSort.InsertionSorts(insertSort);
-
-Console.WriteLine();
-foreach (var item in newInsertSort)
+foreach (var item in newQuickSort)
 {
     Console.Write(item + " ");
 }
