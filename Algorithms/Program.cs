@@ -82,14 +82,33 @@ foreach (var item in newMergeSort)
 Console.WriteLine();
 Console.WriteLine("Solution Quick Sort Algorithms => Divide and Conquer : ");
 int[] quickSort = { 8, 5, 2, 9, 5, 6, 3 };
+int[] newQuickSort = { 8762, 654, 3008, 345, 87, 65, 234, 14, 2, 7 };
 foreach (var item in quickSort)
 {
     Console.Write(item + " ");
 }
-var newQuickSort = QuickSorting.QuickSort(quickSort);
+var newQuickSort2 = QuickSorting.QuickSort(newQuickSort);
 
 Console.WriteLine();
-foreach (var item in newQuickSort)
+foreach (var item in newQuickSort2)
+{
+    Console.Write(item + " ");
+}
+
+
+
+Console.WriteLine();
+Console.WriteLine("Solution Radix Sort Algorithms => Divide and Conquer : ");
+int[] radixSort = { 8, 5, 2, 9, 5, 6, 3, 9 };
+int[] newRadixSort = { 8762, 654, 3008, 345, 87, 65, 234, 14, 2, 7 };
+foreach (var item in radixSort)
+{
+    Console.Write(item + " ");
+}
+var newRadixSort2 = QuickSorting.QuickSort(newRadixSort);
+
+Console.WriteLine();
+foreach (var item in newRadixSort2)
 {
     Console.Write(item + " ");
 }
