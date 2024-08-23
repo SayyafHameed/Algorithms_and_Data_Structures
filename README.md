@@ -37,3 +37,5 @@ The key points about the time complexity of Radix Sort are:
 3. Radix Sort is considered an efficient sorting algorithm, with a time complexity that is better than the comparison-based sorting algorithms like Quicksort and Merge Sort, which have a time complexity of O(n log n).
 
 The reason Radix Sort can achieve this better time complexity is that it avoids comparisons between elements and instead focuses on processing the digits/characters of the input elements one by one.
+
+![image](https://github.com/user-attachments/assets/dd08387d-079e-4a2b-81f1-18699e13ee04)
